@@ -1,0 +1,60 @@
+.form_sg label {
+	display: inline-block;
+	width: 200px;
+	height: 36px;
+	vertical-align: top;
+}
+
+.form_sg input[type=text], .form_wpbc textarea, .form_wpbc select {
+	width: 200px;
+}
+
+.form_sg .name_line {
+	position: relative;
+}
+
+.form_sg .loading {
+	display: none;
+}
+
+.form_sg .icons_list_search {
+	background: #ddd;
+    left: 205px;
+    position: absolute;
+    top: 24px;
+    z-index: 120;
+    width: 200px;
+}
+
+.form_sg .icons_list_search ul {
+	padding: 0;
+	margin: 0;
+}
+
+.form_sg .icons_list_search ul li {
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.form_sg .icons_list_search ul li i {
+	margin-right: 5px;
+}
+
+.sprite_images_list img {
+	max-width: 200px;
+}
+
+#sprite_generator_image_selector {
+	margin-top: 15px;
+}
+
+#sprite_generator_image_selector img {
+	max-width: 300px;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#sprite_generator_loading {
+	display: none;
+}

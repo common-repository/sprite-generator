@@ -1,0 +1,13 @@
+.sprite_generator_image.left {
+	float: left;
+	margin-right: 10px;
+}
+
+.sprite_generator_image.right {
+	float: right;
+	margin-left: 10px;
+}
+
+.sprite_generator_image.center {
+	margin: 0 auto;
+}
